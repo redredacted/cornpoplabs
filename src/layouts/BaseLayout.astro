@@ -13,8 +13,10 @@ const { pageTitle } = Astro.props;
   </head>
   <body class="bg-white dark:bg-slate-800 dark:text-white">
     <Header />
-    <h1 class="dark:text-white">{pageTitle}</h1>
-    <slot />
-    <Footer />
+    <div class="ml-1 mr-1 mt-1 p-4 dark:bg-slate-700 rounded-xl drop-shadow-xl">
+      <h1 class="text-center dark:text-white underline text-xl">{pageTitle}</h1>
+      <slot />
+      <Footer />
+    </div>
   </body>
 </html>
