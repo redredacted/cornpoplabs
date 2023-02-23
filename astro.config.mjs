@@ -17,6 +17,7 @@ import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://www.cornpoplabs.com',
   integrations: [solidJs(), tailwind(), sitemap(), prefetch()],
   output: "server",
   adapter: node({
