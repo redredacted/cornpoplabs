@@ -13,6 +13,6 @@ tags: ["astro", "blogging", "todos"]
 - [x] Implement Content Collections for blog posts 
 - [ ] Maybe some Playwright testing?
 - [ ] Look into implementing mdx
-- [ ] Do I need a sitemap?
+- [x] Do I need a sitemap?
 - [ ] Get Some Icons
 - [ ] Seo and robots
