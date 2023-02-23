@@ -10,8 +10,14 @@ import node from "@astrojs/node";
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
+import sitemap from "@astrojs/sitemap";
+
+// https://astro.build/config
+import prefetch from "@astrojs/prefetch";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [solidJs(), tailwind()],
+  integrations: [solidJs(), tailwind(), sitemap(), prefetch()],
   output: "server",
   adapter: node({
     mode: 'standalone'
